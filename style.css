@@ -1,2 +1,104 @@
-.class {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 30px;
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  background-color: brown;
+  height: 100%;
+}
+
+.searchBar {
+  background-color: aqua;
+  height: 100%;
+}
+
+.profile {
+  background-color: violet;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  background-color: blueviolet;
+  display: flex;
+}
+
+.left {
+  background-color: chocolate;
+  width: 16%;
+  height: 500px;
+}
+
+.content {
+  background-color: yellow;
+  width: 84%;
+  height: 500px;
+}
+
+.filter {
+  width: 100%;
+  height: 20px;
+  background-color: grey;
+}
+
+.video {
+  width: 30%;
+  height: 70px;
+  background-color: tomato;
+  margin-bottom: 20px;
+}
+
+.videos {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.zurag {
+  width: 100%;
+  height: 70%;
+  background-color: chartreuse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.downSection {
+  height: auto;
+  background-color: crimson;
+  display: flex;
+  padding: 4px;
+}
+
+.downSection p {
+  font-size: 8px;
+}
+
+.downSection img {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+
+.zurag img {
+  width: 90%;
+  height: 90%;
+  border-radius: 5px;
 }
